@@ -1,5 +1,7 @@
 ### Notes
 Dump of thoughts while walking through this tutorial
 
-* First step was doing TDD approach of building core logic
-* -> These are the pure functions that reducers ultimately call
+Steps:
+* Build core logic pure functions
+* Build root reducer function which calls core logic
+* Create redux store with root reducer

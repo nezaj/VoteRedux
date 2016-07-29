@@ -1,7 +1,9 @@
 /* For playing around with the store */
 import repl from 'repl';
 
-import {store} from '../src'
+import makeStore from '../src/store'
+
+const store = makeStore();
 
 function initializeContext(context) {
   context.x = {

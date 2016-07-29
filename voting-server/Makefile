@@ -7,6 +7,10 @@ NODE = $(NODE_BIN)/babel-node
 .PHONY: \
 	test test-watch
 
+start:
+	@echo "Starting dev-server..."
+	$(NODE) index.js
+
 test:
 	@echo "Running tests..."
 	$(NODE_BIN)/mocha \
